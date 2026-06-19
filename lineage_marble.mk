@@ -23,3 +23,21 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=marble_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Lunaris Official
+LUNARIS_BUILD_TYPE := OFFICIAL
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_DISABLE_EPPE := true
+WITH_BCR := true
+TARGET_CUSTOM_UDFPS := false
+WITH_GMS := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+USE_REALITY_ENGINE := true
+
+# refresh rate list (optional) - defining this flags makes the controller skip the parsing of Display.Mode refresh rates
+# for supported refresh rates. The refresh rate controller will also assume that all the defined refresh rates are "supported"
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
