@@ -38,6 +38,7 @@ TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 USE_REALITY_ENGINE := true
 TORCH_STR_SUPPORTED := true
+USE_ADVANCED_DISPLAY_COLOR := true
 
 # refresh rate list (optional) - defining this flags makes the controller skip the parsing of Display.Mode refresh rates
 # for supported refresh rates. The refresh rate controller will also assume that all the defined refresh rates are "supported"
