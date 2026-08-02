@@ -40,6 +40,14 @@ USE_REALITY_ENGINE := true
 TORCH_STR_SUPPORTED := true
 USE_ADVANCED_DISPLAY_COLOR := true
 
+# Enable vulkan
+USE_DEFAULT_VULKAN := true 
+
+
+for old devices add this also
+# Vulkan video issue
+TARGET_NEEDS_VULKAN_MEDIA_FIX := true
+
 # refresh rate list (optional) - defining this flags makes the controller skip the parsing of Display.Mode refresh rates
 # for supported refresh rates. The refresh rate controller will also assume that all the defined refresh rates are "supported"
 TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
