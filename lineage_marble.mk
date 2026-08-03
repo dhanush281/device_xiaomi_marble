@@ -44,7 +44,7 @@ USE_ADVANCED_DISPLAY_COLOR := true
 USE_DEFAULT_VULKAN := true 
 
 
-for old devices add this also
+# For old devices add this also
 # Vulkan video issue
 TARGET_NEEDS_VULKAN_MEDIA_FIX := true
 
