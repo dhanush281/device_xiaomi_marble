@@ -38,11 +38,10 @@ TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 USE_REALITY_ENGINE := true
 TORCH_STR_SUPPORTED := true
-USE_ADVANCED_DISPLAY_COLOR := true
+USE_ADVANCED_DISPLAY_COLOR := false
 
 # Enable vulkan
-USE_DEFAULT_VULKAN := true 
-
+USE_DEFAULT_VULKAN := true
 
 # For old devices add this also
 # Vulkan video issue
